@@ -1,0 +1,38 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>NASA Image Gallery</title>
+    <link rel="stylesheet" href="../styles/exoplanet.css">
+</head>
+<body>
+    <span style="position: absolute;left: 0;
+        color: #000; font-size: 2rem;"><a href="/" style="text-decoration: none; color: #000;"><i>SE🌌</i></a></span>
+    <h1>NASA Image Gallery</h1>
+
+    <!-- Search Bar -->
+    <div>
+        <input type="text" id="searchInput" placeholder="Search NASA Images..." />
+        <button onclick="searchImages()">Search</button>
+    </div>
+
+    <!-- Image Gallery -->
+    <div id="gallery">Loading default images...</div>
+
+    <!-- Modal for full image display -->
+    <div id="imageModal" class="modal">
+        <span class="close">&times;</span>
+        <img class="modal-content" id="modalImage">
+        <div id="caption"></div>
+    </div>
+
+    <!-- Footer -->
+    <footer>
+        <p>Powered by NASA APIs</p>
+        <p>Created by <a href="https://www.linkedin.com/in/abhijith-krishna-a-k" style="color: blue;">Abhijith Krishna</a></p>
+    </footer>
+
+    <script src="../scripts/exoplanet.js"></script>
+</body>
+</html>

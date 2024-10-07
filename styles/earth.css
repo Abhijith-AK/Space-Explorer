@@ -1,0 +1,124 @@
+ /* General Reset */
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    font-family: 'Arial', sans-serif;
+    color: #333;
+    background-color: #f0f0f0;
+}
+
+header {
+    background-color: #20232a;
+    padding: 20px;
+}
+
+nav ul {
+    display: flex;
+    justify-content: space-around;
+    list-style: none;
+}
+
+nav ul li a {
+    color: white;
+    text-decoration: none;
+    font-size: 1.2rem;
+}
+
+#hero {
+    height: 100vh;
+    background: url('../ASSETS/images/earth_button.jpg') no-repeat center center/cover;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.hero-content {
+    text-align: center;
+    color: white;
+    display: flex;
+    flex-direction: column;
+    font-size: 2rem;
+    gap: 2rem;
+}
+
+#explore-button {
+    padding: 10px 20px;
+    background-color: #61dafb;
+    border: none;
+    color: black;
+    font-size: 1rem;
+    cursor: pointer;
+    border-radius: 5px;
+    display: none;
+}
+
+#gallery, #events {
+    padding: 50px;
+    background-color: white;
+}
+
+h2 {
+    text-align: center;
+    margin-bottom: 20px;
+    font-size: 2rem;
+    color: #20232a;
+}
+
+h3{
+    text-align: center;
+    font-size: 2rem;
+    margin-bottom: 20px;
+}
+
+.image-grid {
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(300px, 1fr));
+    gap: 20px;
+}
+
+img {
+    width: 100%;
+    border-radius: 10px;
+    box-shadow: 0 4px 8px rgba(0,0,0,0.1);
+}
+
+#events h2{
+    padding: 2rem 0;
+}
+
+.event-grid {
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(250px, 1fr));
+    gap: 30px;
+}
+
+.event-card{
+    display: flex;
+    flex-direction: column;
+    gap: 2rem;
+    padding: 2rem;
+    border: 1px solid;
+    border-radius: 16px;
+}
+
+footer {
+    background-color: #20232a;
+    color: white;
+    text-align: center;
+    padding: 20px 0;
+    margin-top: 50px;
+}
+
+.source{
+    padding: .5rem .6rem;
+    background-color: green;
+    color: white;
+    border-radius: 16px;
+    text-align: center;
+    font-size: 1.3rem;
+    text-decoration: none;
+}

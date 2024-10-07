@@ -1,0 +1,56 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Earth Exploration</title>
+    <link rel="stylesheet" href="../styles/earth.css">
+</head>
+<body>
+    <span style="position: absolute;
+        background-color: #000;
+        color: #ffff; font-size: 2rem;"><a href="/" style="text-decoration: none; color: #ffff;"><i>SE🌌</i></a></span>
+    <!-- Header Section -->
+    <header>
+        <nav>
+            <ul>
+                <li><a href="#home">EARTH</a></li>
+            </ul>
+        </nav>
+    </header>
+
+    <!-- Hero Section -->
+    <section id="hero">
+        <div class="hero-content">
+            <h1>Explore Earth from Space</h1>
+            <p>Discover satellite imagery, monitor natural events, and learn more about our planet.</p>
+            <button id="explore-button">Start Exploring</button>
+        </div>
+    </section>
+
+    <!-- Gallery Section -->
+    <section id="gallery">
+        <h2>Satellite Imagery of your Location</h2>
+        <h3 id="loc"></h3>
+        <div class="image-grid" id="image-gallery">
+            <!-- Satellite images will be injected here dynamically -->
+        </div>
+    </section>
+
+    <!-- Events Section -->
+    <section id="events">
+        <h2 >Current Natural Events</h2>
+        <div class="event-grid" id="event-dashboard">
+            <!-- Event cards will be injected here dynamically -->
+        </div>
+    </section>
+
+    <!-- Footer -->
+    <footer>
+        <p>Powered by NASA APIs</p>
+        <p>Created by <a href="https://www.linkedin.com/in/abhijith-krishna-a-k" style="color: blue;">Abhijith Krishna</a></p>
+    </footer>
+
+    <script src="../scripts/earth.js"></script>
+</body>
+</html>

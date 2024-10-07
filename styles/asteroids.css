@@ -1,0 +1,61 @@
+/* styles.css */
+body {
+    font-family: Arial, sans-serif;
+    background-color: #f4f4f9;
+    color: #333;
+    margin: 0;
+    padding: 0;
+}
+
+header {
+    background-color: #4CAF50;
+    padding: 1rem;
+    text-align: center;
+    color: white;
+}
+
+.dashboard {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    margin: 2rem;
+}
+
+.neo-card {
+    background-color: #fff;
+    border: 1px solid #ddd;
+    border-radius: 5px;
+    box-shadow: 0 4px 8px rgba(0,0,0,0.1);
+    margin: 1rem;
+    padding: 1rem;
+    width: 250px;
+    text-align: center;
+}
+
+button {
+    display: block;
+    margin: 2rem auto;
+    padding: 0.75rem 1.5rem;
+    font-size: 1rem;
+    background-color: #4CAF50;
+    color: white;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+}
+
+button:hover {
+    background-color: #45a049;
+}
+
+
+footer {
+    background-color: #20232a;
+    color: white;
+    text-align: center;
+    padding: 20px 0;
+    margin-top: 50px;
+    bottom: 0;
+    left: 0;
+    right: 0;
+}
